@@ -30,7 +30,7 @@
   <img src="photos/screenshot4.jpg" width="300" alt="Downloads" />
   <img src="photos/screenshot5.jpg" width="300" alt="Repository Viewer" />
 </div>
-## 📝 Changelog (v1.0)
+📝 Changelog (v1.0)
 
 | Category | Updates & Features |
 | :--- | :--- |
