@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="280" src="docs/gitatlas-wordmark.png" alt="GitAtlas"/>
+  <img width="280" src="photos/GitAtlas.png" alt="GitAtlas"/>
   <br/><br/>
   <a href="https://readme-typing-svg.demolab.com">
     <img src="https://readme-typing-svg.demolab.com?font=Itim&size=26&duration=2500&pause=3000&color=89DCEB&center=true&repeat=true&width=700&height=50&lines=A+beautifully+fluid+GitHub+client.;Smart+recommendations.+Direct+downloads.;Liquid+Glass+%2B+Material+X+UI." alt="Typing SVG"/>
