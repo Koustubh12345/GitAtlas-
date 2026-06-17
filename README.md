@@ -1,66 +1,56 @@
-<p align="center">
-  <img src="docs/gitatlas-wordmark.png" alt="GitAtlas" width="280">
-</p>
+<div align="center">
+  <img width="280" src="docs/gitatlas-wordmark.png" alt="GitAtlas"/>
+  <br/><br/>
+  <a href="https://readme-typing-svg.demolab.com">
+    <img src="https://readme-typing-svg.demolab.com?font=Itim&size=26&duration=2500&pause=3000&color=89DCEB&center=true&repeat=true&width=700&height=50&lines=A+beautifully+fluid+GitHub+client.;Smart+recommendations.+Direct+downloads.;Liquid+Glass+%2B+Material+X+UI." alt="Typing SVG"/>
+  </a>
+</div>
 
-<p align="center">
-  A beautifully fluid GitHub client with smart recommendations, in-app code viewing, and direct downloads.
-</p>
-
-<p align="center">
-  <a href="#installation">Installation</a> ·
-  <a href="#features">Features</a> ·
-  <a href="#feedback--support">Support</a> ·
-  <a href="https://t.me/getthefckoutofheree">Telegram</a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/github/v/release/YourGitHubHandle/GitAtlas?label=Latest%20Release&color=success" alt="Latest Release">
-  <img src="https://img.shields.io/badge/Platform-Android%207.1+-green.svg?logo=android" alt="Android">
-  <img src="https://img.shields.io/badge/Built_with-Jetpack_Compose-blue.svg?logo=android" alt="Jetpack Compose">
-</p>
-
-<p align="center">
-  <img src="docs/gitatlas-hero.jpg" alt="GitAtlas interface">
-</p>
+<div align="center">
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/-Download_APK-1e1e2e?style=for-the-badge&logo=android&logoColor=89DCEB"/></a>
+  <img src="https://img.shields.io/badge/-Jetpack_Compose-1e1e2e?style=for-the-badge&logo=jetpackcompose&logoColor=CDD6F4"/>
+  <img src="https://img.shields.io/badge/-Android_7.1+-1e1e2e?style=for-the-badge&logo=android&logoColor=A6E3A1"/>
+</div>
 
 ---
 
-## Installation
+<pre><code class="language-javascript">const GitAtlas = {
+    ui:       ["Liquid Glass", "Material X", "Heavy Blurs", "Compose Animations"],
+    features: ["Smart Recommendations", "In-App Code Viewer", "Direct APK/Repo Downloads"],
+    engine:   ["Search History Tracking", "Bookmark Language Matching", "Multi-Tag OR Queries"],
+    data:     ["Offline Bookmarks", "Encrypted SharedPreferences", "Retrofit2"],
+    status:   "Closed Source (APK Release)",
+};</code></pre>
 
-GitAtlas is distributed as a compiled Android APK. 
+---
 
-1. Go to the [Releases](../../releases/latest) page of this repository.
-2. Download the latest `GitAtlas-vX.X.X.apk` file to your Android device.
-3. If prompted, allow your browser or file manager to "Install unknown apps".
-4. Open the APK to install. 
+## ⚡ Installation
 
-> **Compatibility:** GitAtlas requires an Android device running Android 7.1 (API 25) or higher.
+GitAtlas is distributed purely as a compiled Android APK. 
 
-## Features
+1. Head over to the **[Releases](../../releases/latest)** tab.
+2. Download the latest `GitAtlas-vX.X.X.apk`.
+3. Allow "Install unknown apps" if prompted by Android.
+4. Install and launch.
 
-- **Smart Engine** — dynamic feed that learns from your searches and bookmarks to curate personalized repository suggestions.
-- **Atmospheric UI** — custom Liquid Glass and Material X design with heavy blurs and smooth Jetpack Compose animations.
-- **Downloads** — save repository source files straight to your device's local storage with background job management.
-- **Code Viewer** — browse and read repository source code seamlessly in-app, similar to MT Manager.
-- **Discovery** — explore popular developers, track trending creators, and view detailed GitHub statistics.
-- **Offline Bookmarks** — save your favorite repositories persistently via local shared preferences.
+## 📱 Interface
 
-## Feedback & Support
+<div align="center">
+  <img src="docs/gitatlas-hero.jpg" alt="GitAtlas interface" width="100%">
+</div>
 
-While the source code for GitAtlas is closed, bug reports and feature requests are always welcome! 
+## 🧠 The Engine
 
-* **Found a bug?** Open an issue in the [Issues tab](../../issues) with a detailed description and steps to reproduce.
-* **Feature request?** Feel free to drop suggestions in the Issues tab or reach out directly on Telegram.
+Unlike generic GitHub clients, GitAtlas features a custom recommendation engine built specifically for power users. It doesn't just show trending lists—it actively reads your local search history and your bookmarked repository languages to build a massive, targeted `OR` query against the GitHub API. 
 
-## Security & Permissions
+If you search for `rvx` and bookmark a `Python` project, your feed automatically calibrates to show you exactly that.
 
-GitAtlas is a secure local client. It requires network access for GitHub API calls and external storage permissions explicitly for saving downloaded repositories directly to your device. Your search history and bookmarks are strictly stored locally on your device in encrypted SharedPreferences. No analytics or personal data are collected or transmitted.
+## 🛠 Support & Feedback
 
-## Developer
+While the source code remains closed, bug reports and feature requests are actively monitored. Open a ticket in the [Issues](../../issues) tab if you catch a crash or want a new feature added to the UI.
 
-Developed and maintained by **TenSei** (TenSei Mods)
-* Telegram: [TenSei Chad](https://t.me/getthefckoutofheree)
-
-## License
-
-This is a proprietary application distributed as freeware. All rights reserved by TenSei Mods. 
+<div align="center">
+  <p>Developed and maintained by <b>TenSei</b></p>
+  <a href="https://t.me/getthefckoutofheree"><img src="https://img.shields.io/badge/-Telegram-1e1e2e?style=for-the-badge&logo=telegram&logoColor=89DCEB"/></a>
+  <a href="https://github.com/Koustubh12345"><img src="https://img.shields.io/badge/-GitHub-1e1e2e?style=for-the-badge&logo=github&logoColor=CDD6F4"/></a>
+</div>
