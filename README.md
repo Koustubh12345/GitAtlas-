@@ -35,15 +35,11 @@ GitAtlas is distributed as a compiled Android APK.
 ## 📱 Interface
 
 <div align="center">
-  <img src="photos/screenshot1.jpg" width="800" alt="Trending Feed" />
-  <br/><br/>
-  <img src="photos/screenshot2.jpg" width="800" alt="Search" />
-  <br/><br/>
-  <img src="photos/screenshot3.jpg" width="800" alt="Developers" />
-  <br/><br/>
-  <img src="photos/screenshot4.jpg" width="800" alt="Downloads" />
-  <br/><br/>
-  <img src="photos/screenshot5.jpg" width="800" alt="Repository Viewer" />
+  <img src="photos/screenshot1.jpg" width="300" alt="Trending Feed" />
+  <img src="photos/screenshot2.jpg" width="300" alt="Search" />
+  <img src="photos/screenshot3.jpg" width="300" alt="Developers" />
+  <img src="photos/screenshot4.jpg" width="300" alt="Downloads" />
+  <img src="photos/screenshot5.jpg" width="300" alt="Repository Viewer" />
 </div>
 
 ## 🧠 The Engine
