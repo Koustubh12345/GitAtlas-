@@ -19,35 +19,58 @@
     features: ["Smart Recommendations", "In-App Code Viewer", "Direct APK/Repo Downloads"],
     engine:   ["Search History Tracking", "Bookmark Language Matching", "Multi-Tag OR Queries"],
     data:     ["Offline Bookmarks", "Encrypted SharedPreferences", "Retrofit2"],
-    status:   "Closed Source (APK Release)",
+    status:   "Source Visible (All Rights Reserved)",
 };</code></pre>
 
 ---
 
 ## ⚡ Installation
 
-GitAtlas is distributed purely as a compiled Android APK. 
+You can either download the pre-compiled application or build it from the source code.
 
+**Option 1: Download APK (Recommended)**
 1. Head over to the **[Releases](../../releases/latest)** tab.
-2. Download the latest `GitAtlas-vX.X.X.apk`.
-3. Allow "Install unknown apps" if prompted by Android.
-4. Install and launch.
+2. Download the latest APK file.
+3. Allow "Install unknown apps" if prompted by Android and launch the app.
+
+**Option 2: Build from Source**
+1. Clone this repository:
+   git clone https://github.com/Koustubh12345/GitAtlas.git
+2. Open the project in Android Studio.
+3. Sync the Gradle files and build the project.
+4. Run on an emulator or physical device.
 
 ## 📱 Interface
 
 <div align="center">
-  <img src="docs/gitatlas-hero.jpg" alt="GitAtlas interface" width="100%">
+  <img src="docs/screenshot1.jpg" width="19%" />
+  <img src="docs/screenshot2.jpg" width="19%" />
+  <img src="docs/screenshot3.jpg" width="19%" />
+  <img src="docs/screenshot4.jpg" width="19%" />
+  <img src="docs/screenshot5.jpg" width="19%" />
 </div>
+
+*(Note: Replace the screenshot1.jpg - screenshot5.jpg links with the actual paths to your 5 uploaded photos)*
 
 ## 🧠 The Engine
 
-Unlike generic GitHub clients, GitAtlas features a custom recommendation engine built specifically for power users. It doesn't just show trending lists—it actively reads your local search history and your bookmarked repository languages to build a massive, targeted `OR` query against the GitHub API. 
+Unlike generic GitHub clients, GitAtlas features a custom recommendation engine built specifically for power users. It doesn't just show trending lists—it actively reads your local search history and your bookmarked repository languages to build a massive, targeted query against the GitHub API. 
 
-If you search for `rvx` and bookmark a `Python` project, your feed automatically calibrates to show you exactly that.
+If you search for "rvx" and bookmark a "Python" project, your feed automatically calibrates to show you exactly that using advanced multi-tag filtering.
+
+## ⚠️ License & Usage
+
+**© 2026 TenSei Mods. All Rights Reserved.**
+
+The source code for GitAtlas is provided for **viewing and educational purposes only**. 
+
+You are **strictly prohibited** from copying, modifying, distributing, compiling, or using any part of this source code or UI design in your own projects without my explicit, written authorization. 
+
+If you wish to fork, modify, or utilize elements of this repository, you must contact me directly to request permission first.
 
 ## 🛠 Support & Feedback
 
-While the source code remains closed, bug reports and feature requests are actively monitored. Open a ticket in the [Issues](../../issues) tab if you catch a crash or want a new feature added to the UI.
+If you catch a bug, experience a crash, or have a feature request, open a ticket in the **[Issues](../../issues)** tab.
 
 <div align="center">
   <p>Developed and maintained by <b>TenSei</b></p>
